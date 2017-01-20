@@ -2,7 +2,6 @@
 {
   using Data;
   using Data.Items;
-  using Diagnostics;
   using Shell.Applications.ContentEditor.Gutters;
   using Sitecore.Diagnostics;
 

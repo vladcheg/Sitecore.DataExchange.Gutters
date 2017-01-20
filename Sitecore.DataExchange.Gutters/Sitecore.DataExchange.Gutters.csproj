@@ -55,10 +55,10 @@
     <Compile Include="Commands\EnableItemCommand.cs" />
     <Compile Include="Commands\PipelineStepContextMenuCommand.cs" />
     <Compile Include="Commands\ShowEnableCommand.cs" />
-    <Compile Include="Commands\ShowPipelineBatchCommand.cs" />
+    <Compile Include="Commands\PipelineBatchContextMenuCommand.cs" />
     <Compile Include="ItemDisabledGutter.cs" />
-    <Compile Include="PipelineBatch.cs" />
-    <Compile Include="PipelineStep.cs" />
+    <Compile Include="PipelineBatchGutter.cs" />
+    <Compile Include="PipelineStepGutter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

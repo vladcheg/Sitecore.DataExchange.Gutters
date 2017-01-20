@@ -7,7 +7,7 @@
   using Shell.Applications.ContentEditor.Gutters;
   using Sitecore.Diagnostics;
 
-    public class PipelineBatch : GutterRenderer
+    public class PipelineBatchGutter : GutterRenderer
   {
     protected readonly ID PipelineBatchTemplateId = new ID("{075C4FBD-F54E-4E6D-BD54-D49BDA0913D8}");
 
@@ -17,7 +17,7 @@
       if (item.TemplateID == this.PipelineBatchTemplateId)
       {
         var gutterIconDescriptor = new GutterIconDescriptor() {Icon = TemplateManager.GetTemplate(item).Icon, Tooltip = item.DisplayName};
-        gutterIconDescriptor.Click = "dataExchange:showPipelineBatch()";
+        gutterIconDescriptor.Click = "dataExchange:pipelineBatchContextMenu()";
         return gutterIconDescriptor;
       }
       return null;

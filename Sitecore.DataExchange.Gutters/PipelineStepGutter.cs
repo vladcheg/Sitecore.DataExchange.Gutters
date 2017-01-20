@@ -6,7 +6,7 @@
     using Shell.Applications.ContentEditor.Gutters;
     using Sitecore.Diagnostics;
 
-    public class PipelineStep : GutterRenderer
+    public class PipelineStepGutter : GutterRenderer
     {
         protected readonly ID PipelineTemplateId = new ID("{2DC9C843-B841-483C-BB9B-AE0C9386404C}");
         protected readonly ID PipelinesFolderId = new ID("{70ED1D4D-3796-400D-A64E-E538D933E12C}");
