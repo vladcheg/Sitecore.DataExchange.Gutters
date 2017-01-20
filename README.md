@@ -4,7 +4,7 @@ One interesting and cool feature of Sitecore is the ability to use gutters. What
 The current solutions were designed mainly for [Sitecore Data Exchange Framework](https://dev.sitecore.net/Downloads/Data_Exchange_Framework.aspx) (DEF) and its providers. If you are not familiar with DEF, please follow the available [documentation link](http://integrationsdn.sitecore.net/DataExchangeFramework/v1.2/).
 
 There are three available gutters for DEF.
-* DataExchange - Item Disabled
+* [DataExchange - Item Disabled](#dataexchange---item-disabled)
 * DataExchange - Pipeline Batch
 * DataExchange - Pipeline Step
 
