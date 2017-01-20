@@ -5,8 +5,30 @@ The current solutions were designed mainly for [Sitecore Data Exchange Framework
 
 There are three available gutters for DEF.
 * [DataExchange - Item Disabled](#dataexchange---item-disabled)
-* DataExchange - Pipeline Batch
-* DataExchange - Pipeline Step
+* [DataExchange - Pipeline Batch](#dataexchange---pipeline-batch)
+* [DataExchange - Pipeline Step](#dataexchange---pipeline-step)
 
 ### DataExchange - Item Disabled
-By default when you configure a new tenant with its batches and pipelines they are disables. This gutter allow you not only see it, also, it allows you tick it to enabled. 
+By default when you configure a new tenant with its batches and pipeline steps they are disables. This gutter allows not only see it, also, it allows you to set enable.
+
+![Gutter Item Disabled](/source/images/gutter-enable.jpg)
+
+### DataExchange - Pipeline Batch
+When you select pipeline batch you have several options:
+* **Run It** - allows you to run selected pipeline batch.
+* **Clean Summary** - allows you to clean up data under summary section.
+* **Display Pipeline Steps** - allows to display chaine of pipeline steps for current batch.
+
+![Gutter Pipeline Batch](/source/images/gutter-pipeline-batch.jpg)
+
+![Command Pipeline Batch](/source/images/command-show-pipeline-steps.jpg)
+
+### DataExchange - Pipeline Step
+There is a single option for selected pipeline step is to **display required plugins**.
+
+![Gutter Pipeline Step](/source/images/gutter-pipeline-step.jpg)
+
+![Command Required Plugins](/source/images/command-required.jpg)
+
+
+
