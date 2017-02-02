@@ -1,0 +1,104 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Gutters for Sitecore Data Exchange Framework</PackageName>
+      <Author>Vlad Shpak</Author>
+      <Version>1.0.0</Version>
+      <Revision />
+      <License />
+      <Comment>Gutters for Sitecore Data Exchange</Comment>
+      <Attributes />
+      <Readme>The current solutions were designed mainly for Sitecore Data Exchange Framework (DEF) and its providers.
+
+There are three available gutters for DEF.
+ 1. DataExchange - Item Disabled
+ 2. DataExchange - Pipeline Batch
+ 3. DataExchange - Pipeline Step</Readme>
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/Sitecore.DataExchange.Gutters.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Bin</Name>
+    </xfiles>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Sitecore.DataExchange.Gutters.config</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>App_Config</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Gutters/DataExchange - Item Disabled/{238B126B-1E0E-45CC-954F-E86A1FEC7D42}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Gutters/DataExchange - Pipeline Batch/{8E4C02E6-A46F-4171-8189-BFC7F653B5C3}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Gutters/DataExchange - Pipeline Step/{13FA3817-3AC5-4214-984C-2B7FC0C599FF}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Gutters</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
