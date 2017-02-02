@@ -8,6 +8,7 @@ name: DataExchange - Item Disabled
 master: {00000000-0000-0000-0000-000000000000}
 template: {F5D247E0-80E6-4F31-9921-D30D00B61B3C}
 templatekey: Gutter Renderer
+created: 20161230T162636:636187119961870000
 
 ----field----
 field: {7A108204-DC61-4D25-A138-FD6F53F48ABF}
@@ -141,15 +142,15 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 58f1516e-6163-4e6a-a0bf-b2f7a2278da9
+revision: ff53af86-e602-4c61-bf08-474894f34f34
 
 ----field----
 field: {5024402F-0B92-4C13-A7D2-86ED85FF3560}
 name: Header
 key: header
-content-length: 28
+content-length: 29
 
-DataExchange - Item Disabled
+Data Exchange - Item Disabled
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -177,14 +178,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-58f1516e-6163-4e6a-a0bf-b2f7a2278da9
+ff53af86-e602-4c61-bf08-474894f34f34
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160627T154044Z
+20170202T082323Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
