@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sitecore.DataExchange.Gutters</RootNamespace>
     <AssemblyName>Sitecore.DataExchange.Gutters</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -53,13 +54,17 @@
     <Compile Include="Commands\DisplayPipelineStepsCommand.cs" />
     <Compile Include="Commands\DisplayRequiredCommand.cs" />
     <Compile Include="Commands\EnableItemCommand.cs" />
+    <Compile Include="Commands\GoToReferenceCommand.cs" />
     <Compile Include="Commands\PipelineStepContextMenuCommand.cs" />
+    <Compile Include="Commands\ReferenceMenuCommand.cs" />
     <Compile Include="Commands\ShowEnableCommand.cs" />
     <Compile Include="Commands\PipelineBatchContextMenuCommand.cs" />
+    <Compile Include="Commands\ValueMappingContextMenuCommand.cs" />
     <Compile Include="ItemDisabledGutter.cs" />
     <Compile Include="PipelineBatchGutter.cs" />
     <Compile Include="PipelineStepGutter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValueMappingGutter.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
